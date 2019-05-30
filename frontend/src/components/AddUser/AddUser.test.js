@@ -70,27 +70,13 @@ it('Renders without crashing', () => {
     expect(wrapper.containsMatchingElement(<AddUser/>)).toBeTruthy()
 });
 
-
 it('Onchange sets state', () => {
     
     // Should be repeated for other inputs
     
-    
     wrapper.find('input[name="email"]').simulate('change', {target: {value: 'abc', name: 'email'}});
     expect(wrapper.find('Editor').state('email')).toEqual('abc');
-
-
 });
-
-it('Onchange sets state', () => {
-    // console.log(wrapper.debug())
-    // var newProps = initialState.users.current;
-    // newProps.name = 'Peter'
-
-    // // expect(wrapper.find('Editor').state('email')).toEqual('abc'); wrapper.setProps({ current: newProps })
-
-});
-
 
 
 

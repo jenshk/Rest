@@ -12,7 +12,6 @@ configure({ adapter: new Adapter() });
 /*
  *  Setup
  */
-
 const initialState = {
     auth: {
         user: {
