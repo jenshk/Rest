@@ -1,0 +1,19 @@
+#LoginModal {
+    .ui.input {
+        margin-bottom: 20px;
+    }
+
+    .header {
+        text-align: center;
+    }
+    .error {
+        color: red;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .actions {
+        display: flex;
+        justify-content: center;
+    }
+}
